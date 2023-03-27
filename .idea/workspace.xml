@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="94548d0a-e980-4bc0-b64e-aa225e148c9c" name="Changes" comment="" />
+    <list default="true" id="94548d0a-e980-4bc0-b64e-aa225e148c9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CALENDARIO completado/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CALENDARIO completado/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CALENDARIO completado/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CALENDARIO completado/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/CALENDARIO TEST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CALENDARIO completado/CALENDARIO TEST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/out/production/CALENDARIO TEST/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CALENDARIO TEST/src/mostrarCalendariocontinuacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/CALENDARIO completado/src/mostrarCalendariocontinuacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajo1/out/production/trabajo1/mostrarCalendario.class" beforeDir="false" afterPath="$PROJECT_DIR$/calendario 2.0/out/production/trabajo1/mostrarCalendario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajo1/src/mostrarCalendario.java" beforeDir="false" afterPath="$PROJECT_DIR$/calendario 2.0/src/mostrarCalendario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MIv3siyRKXQmMFn4M3wjWBz4D3" />
   <component name="ProjectViewState">
@@ -19,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/20232-POO-5CN/A4-CalculadoraBasica"
+    "last_opened_file_path": "E:/zerox/zeroxjava/Descomposiciondenumeros P"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

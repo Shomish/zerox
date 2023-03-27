@@ -16,7 +16,7 @@ public class mostrarCalendariocontinuacion {
         int y;
         int i ;
         for (y = 1; y < primerDiaSemana; y++) {
-            System.out.print("    ");
+            System.out.print("  ");// espacios para el calendario
         }
         for ( i = 1; i <= date.lengthOfMonth(); i++) {
 
@@ -33,8 +33,10 @@ public class mostrarCalendariocontinuacion {
         } // culminacion del bucle que comienza en 1 y termina en date.lenght para imprimir los dias del mes
 
     }
+
     public static void menu() {
         Scanner aoomes=new Scanner(System.in);
+
         System.out.println("    _____AÑO Y MES_______");
         System.out.println("Se muestra el mes del año que des a conocer.");
         System.out.println("Agregue el valor numericamente ");
