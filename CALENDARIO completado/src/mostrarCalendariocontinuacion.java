@@ -4,19 +4,17 @@ import java.util.Scanner;
 public class mostrarCalendariocontinuacion {
     public static void proceso(int year,int month) {
         LocalDate date = LocalDate.of(year, month, 1);// crear un objeto localdate para el inicio de cada,mes
-
         System.out.println("   Calendario de " + year);
         System.out.println("       "+obtenerNombreMes(month));
         System.out.println("---------------------------");
         System.out.println("Lu  Ma  Mi  Ju  Vi  Sa  Do");
 
-
-        int primerDiaSemana = date.getDayOfWeek().getValue(); //obtener el primer dia de la semana
+        int primerDiaSemana = date.getDayOfWeek().getValue();//obtener el primer dia de la semana
 
         int y;
         int i ;
         for (y = 1; y < primerDiaSemana; y++) {
-            System.out.print("  ");// espacios para el calendario
+            System.out.print("    "); // espacios para el calendario
         }
         for ( i = 1; i <= date.lengthOfMonth(); i++) {
 
@@ -30,14 +28,13 @@ public class mostrarCalendariocontinuacion {
             } else {
                 System.out.print("  ");
             }
-        } // culminacion del bucle que comienza en 1 y termina en date.lenght para imprimir los dias del mes
+            // culminacion del bucle que comienza en 1 y termina en date.lenght para imprimir los dias del mes
+        }
 
     }
-
     public static void menu() {
         Scanner aoomes=new Scanner(System.in);
-
-        System.out.println("    _____AÑO Y MES_______");
+        System.out.println("_______________AÑO Y MES_______________");
         System.out.println("Se muestra el mes del año que des a conocer.");
         System.out.println("Agregue el valor numericamente ");
         System.out.print("Ingrese el Año: ");
@@ -57,6 +54,7 @@ public class mostrarCalendariocontinuacion {
 
     }
     public static String obtenerNombreMes(int mes) { // estructura condicional para cambiar de meses (enero,febrero,etc)
+
         switch (mes) {
             case 1:
                 return "Enero";
@@ -87,4 +85,5 @@ public class mostrarCalendariocontinuacion {
         }
     }
 }
+
 
